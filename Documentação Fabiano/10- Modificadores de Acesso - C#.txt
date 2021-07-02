@@ -1,0 +1,38 @@
+		---Modificadores---
+
+	Modificadores de acesso (ou modificadores apenas) são usados para definir a segurança e acessibilidade de classes, propriedades, métodos, etc.
+	Confira abaixo uma lista de modificadores e suas funções:
+
+--Classes--
+
+	public - Torna a classe visível e disponível para todo o programa.
+
+	abstract - Descreve uma classe base, que serve como base para outras classes, e que NÃO permite a instanciação de objetos.
+
+	sealed - Define que a classe NÃO pode ser herdada.
+
+	static - Permite acessar os membros da classe sem a necessidade de criar um objeto para a classe (os membros de uma classe do tipo static DEVEM obrigatóriamente ser do tipo static também).
+
+	internal - Torna a classe invisível para todo o programa. No entanto é possível acessá-la por encapsulamento [Consulte Encapsulamento.txt]
+OBS: Por natureza, as classes sempre são definidas como internal
+
+--Propriedades & Métodos--
+
+	public - Sem restrição de acesso
+
+	private - Torna a propriedade indisponível para todo o programa. No entanto é possível acessá-la por encapsulamento [Consulte Encapsulamento.txt]
+
+	protected - Permite o acesso apenas na própria classe, e em classes derivadas (filhas).
+
+	abstract - Define um método que é herdado e recebe suas instruções na classe-filha, ou seja, é um método vázio (ou não) da classe-pai, que é preenchido somente quando é herdado na classe-filha. Não pode instanciar (criar) seus próprios objetos.
+OBS: Ao herdar uma classe abstract, você é obrigado a editar os métodos desta classe usando a palavra-chave "override", e a classe que contém o método deve ser OBRIGATÓRIAMENTE do tipo "abstract".
+
+	override sealed - Não permite redefinir o método. 
+
+	virtual - Permite redefinir as implementações de um método herdado. [Consulte Herança, Interface & Polimorfismo.txt]
+
+	static - Deve ser usado quando a classe a qual o membro está inserido também ser do tipo static.
+
+	internal - Define que um método só pode ser visto dentro do projeto em que ele está alocado.
+	
+

@@ -1,0 +1,34 @@
+		---Métodos---
+
+	Métodos são como ordens, ou seja, ao chamar um métodos, ele dá uma ordem ao programa. Por exemplo o método .ToString() ordena ao programa que ele converte algo para um formato string.
+	Geralmente, alguns métodos exigem parâmetros de entrada. Esses parâmetros são atribuidos aos valores entre parênteses, e então são usados para cumprir a ordem que foi mandada pelo método. 
+	Por exemplo o método Console.Write("mensagem") exige que você ceda uma string para atribuir ao valor da "mensagem", e então ele possa escrever a mensagem no terminal do programa.
+
+- Console.Write("mensagem"); - Escreve a "mensagem" no terminal do programa.
+
+- Console.WriteLine("mensagem"); - Escreve a "mensagem" no terminal do programa, e quebra (pula) a linha.
+
+- Console.ReadLine(); - Deixa a linha disponível para leitura e escrita. até que o usuário escolha fechar, pressionando ENTER.
+
+	Além de métodos prontos, você pode criar seus próprios métodos. Como base, sempre crie métodos da seguinte forma:
+
+"Modificador" + "tipo de retorno" + "nome do método" + ("parâmetros")
+{
+	instruções;
+	return resposta;
+}
+
+Modificador: Defina o nível de segurança de seu método (como por exemplo "public static" [Consulte classes - C#.txt para saber mais sobre modificadores de acesso])
+Tipo de retorno: Defina o tipo de retorno do método, ou seja, o que o método retornará como resposta.
+Nome do método: Nome do método (De preferência auto-explicativo)
+Parâmetros: Defina os dados que você precisa para cumprir a ordem. Estes não são obrigatórios. É possível (inclusive recomendado) criar métodos sem parâmetros.
+Instruções: Instruções quais o método seguirá.
+Resposta: O valor de resposta. este deve ser precedido por return e deve ser do mesmo tipo que o tipo de retorno.
+
+- EXEMPLO:
+
+public int CalcularSoma (int numero1, int numero2)
+{
+	int resultado = numero1 + numero2;
+	return resultado;
+}

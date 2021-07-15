@@ -1,4 +1,12 @@
 # SQL Server
+
+* [Banco de Dados Relacional](https://github.com/relex337/AllContents/edit/main/Banco%20de%20Dados#banco-de-dados-relacional)
+* [CRUD](https://github.com/relex337/AllContents/edit/main/Banco%20de%20Dados#crud)
+* [Comandos](https://github.com/relex337/AllContents/edit/main/Banco%20de%20Dados#comandos)
+* [W3Schools](https://github.com/relex337/AllContents/edit/main/Banco%20de%20Dados#w3schools)
+* [Implementando no C#](https://github.com/relex337/AllContents/edit/main/Banco%20de%20Dados#implementando-no-c#)
+
+
 ## Banco de Dados Relacional
 
 Um banco de dados é uma aplicação que lhe permite armazenar e obter de volta dados com eficiência. 

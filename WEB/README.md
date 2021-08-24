@@ -1,7 +1,7 @@
 # WEB
 
-* [Entity Framework](https://github.com/relex337/AllContents/edit/main/WEB#entity-framework)
-* [MVC](https://github.com/relex337/AllContents/edit/main/WEB#mvc)
+* [Entity Framework](#entity-framework)
+* [MVC](#mvc)
 
 ## Entity Framework
 

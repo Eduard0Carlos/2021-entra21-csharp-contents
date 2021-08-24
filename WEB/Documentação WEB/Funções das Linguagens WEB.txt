@@ -1,0 +1,3 @@
+Html5 -> Responsável pela estrutura da página.
+CSS -> Responsável pelo Design do site.
+JavaScript -> Responsável pela lógica inteira da página.

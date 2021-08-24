@@ -1,10 +1,10 @@
 # SQL Server
 
-* [Banco de Dados Relacional](https://github.com/relex337/AllContents/edit/main/Banco%20de%20Dados#banco-de-dados-relacional)
-* [CRUD](https://github.com/relex337/AllContents/edit/main/Banco%20de%20Dados#crud)
-* [Comandos](https://github.com/relex337/AllContents/edit/main/Banco%20de%20Dados#comandos)
-* [W3Schools](https://github.com/relex337/AllContents/edit/main/Banco%20de%20Dados#w3schools)
-* [Implementando no C#](https://github.com/relex337/AllContents/edit/main/Banco%20de%20Dados#implementando-no-c#)
+* [Banco de Dados Relacional](#banco-de-dados-relacional)
+* [CRUD](#crud)
+* [Comandos](#comandos)
+* [W3Schools](#w3schools)
+* [Implementando no C#](#implementando-no-c#)
 
 
 ## Banco de Dados Relacional

@@ -10,5 +10,8 @@ Após ter digitado esses comandos, mude o "Projeto Padrão" para o seu DAO e dig
 	- Install-Package Microsoft.EntityFrameworkCore
 	- Install-Package Microsoft.EntityFrameworkCore.SqlServer
 	- Install-Package Microsoft.EntityFrameworkCore.Tools
+	
+	- Install-Package FluentValidations
+	- Install-Package AutoMapper
 
 Pronto! Seu Projeto está devidamente configurado.

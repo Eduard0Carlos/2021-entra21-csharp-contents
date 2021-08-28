@@ -1,0 +1,48 @@
+﻿@model MVCPresentationLayer.Models.Genero.GeneroInsertViewModel
+
+@{
+    ViewData["Title"] = "Criar Gênero";
+}
+
+<h1 />
+
+<h1>Criação de Gênero</h1>
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+
+            <div class="form-group">
+                <label asp-for="Nome" class="control-label"></label>
+                <input asp-for="Nome" placeholder="Informe o nome do gênero" class="form-control" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+
+            @if (ViewBag.Error != null)
+            {
+                <div class="form-group">
+                    <label class="error">@ViewBag.Error</label>
+                </div>
+            }
+
+
+
+            <div class="form-group">
+                <input type="submit" value="Cadastrar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@*Este @sectionScripts serve apenas para os scripts específicos de cada view
+    serem renderizados no FINAL da página do _Layout e não no meio!*@
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+

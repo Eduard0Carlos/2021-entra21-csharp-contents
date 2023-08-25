@@ -1,0 +1,69 @@
+	---Questões de prova---
+
+Solução: Consiste em todo o programa.
+
+Projeto (ou Assembly): São as camadas como PresentationLayer, Entities, etc.
+
+Para que servem os comando get e set?
+Get serve para ler o valor de uma propriedade.
+Set serve para escrever / editar o valor de uma classe.
+Por exemplo ao declarar uma propriedade com "{ get; private set;}", significa que ela pode ser lida, mas não pode ser escrita, ou alterada.
+Alem disso, também é possível criar uma propriedade com apenas { get {Implementação} }
+
+Para chamar uma classe que está em outro projeto do programa, o que é necessário?
+1º- É necessário declarar a classe como "public".
+2º- É necessário referenciar o componente no qual a classe está inserida para poder usar a classe no componente inicial.
+
+Qual o problema de usar variável pública?
+Apesar da similaridade de uma variável pública com propriedades públicas, a maioria das ferramentas de programação mais avancadas EXIGEM que sejam usadas propriedades. As ferramentas mais modernas NÃO trabalham com variáveis públicas, mas sim com propriedades.
+
+O que cada camada faz?
+PresentationLayer: A apresentação, onde são cedidas e validadas as informações. ( Tudo que envolve o front )
+BusinessLogicalLayer: Regras e validações de negócios de compra e venda.
+DataAccessLayer: Banco de dados e qualquer outro componente que envolva ele.
+Entities: As classes principais que você vai gerenciar e manipular, como clientes, empresas, fornecedor.
+
+O que é um construtor?
+Construtor é um método que tem o mesmo nome da classe, que não tem retorno, e que é executado assim que um objeto é criado para a classe (assim que a classe é instânciada).
+
+Ao declarar um construtor, o que acontece com o construtor implicitamente criado pela classe?
+O construtor padrão da classe é substituído pelo construtor declarado pelo desenvolvedor. Ainda assim é possível recuperá-lo declarando um construtor sem parâmetros.
+
+O que são sobrecargas?
+Sobrecargas são construtores e métodos com a mesma nomenclatura, mas com parâmetros diferentes.
+
+O que é composição? E agregação?
+Composição é quando você é obrigado a ter certas informações para criar um objeto. Você não pode criar um objeto sem essas informações. Agregação é quando ceder as informações é opcional.
+
+Quais são as duas formas de encapsulamento do C#?
+É possível acessar / alterar uma propriedade privada apenas por métodos publicos e por construtores
+(Também é possível por propriedades com implementações embutidas em comando { get {implementação}; set {implementação};. No entanto, esta última não é tão usada quanto as duas primeiras formas.)
+
+Qual é a diferença entre uma interface e uma classe abstract?
+A diferença é que a interface NÃO possui implementações (instruções), e uma classe abstract pode possuir mas não é obrigatório.
+
+Ao herdar de uma classe abstrata, a classe a seguir apresenta um erro. Por que?
+
+	abstract class Jogador
+	{
+        		public string Nome { get; set; }
+        		public double Velocidade { get; set; }
+        		public double Passe { get; set; }
+        		public double Força { get; set; }
+        		public double Chute { get; set; }
+        		public double Inteligencia { get; set; }
+        		public double Resistencia { get; set; }
+        		public double Drible { get; set; }
+        		public double Reflexo { get; set; }
+        		public double Altura { get; set; }
+        		public Perna PernaBoa { get; set; }
+
+        		public abstract double CalcularScore();
+    
+    	}
+	class Zagueiro : Jogador
+	{
+
+	}
+
+O sistema está acusando um erro porque a classe "Zagueiro" não está implementando (ou usando, declarando uma instrução) para o método abstrato CalcularScore, que foi herdado da classe abstrata "Jogador".

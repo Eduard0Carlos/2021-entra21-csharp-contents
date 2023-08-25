@@ -1,0 +1,95 @@
+		---Estruturas Condicionais---
+
+	Normalmente uma estrutura condicional (ou condição apenas) verifica se algo é verdadeiro (true) ou falso (false), e então retorna algum valor como resposta.
+	Para criar uma condição usamos:
+
+if (condição) "Se a condição for verdadeira (atendida)...
+{
+	instrução1; "Execute a instrução1"
+}
+else "Se a condição for false (não atendida)...
+{
+	instrução2; "Execute a instrução2"
+} 
+
+	"Ou seja, se a condição for atendida, execute a instrução1. Se não for, execute a instrução2."
+
+	Há outras formas de se usar isso, por exemplo você pode usar um if depois de else, para que caso a primeira condição não seja atendida, ele confira uma segunda condição (Observe abaixo).
+
+if (condição1)
+{
+	instrução1;
+}
+else if (condição2)
+{
+	instrução2;
+}
+else if (condição3)
+{
+	instrução3;
+}
+else
+{
+	instrução4;
+}
+
+	Não só isso, como você também pode usar operadores lógicos como &&, ||, <, >, etc. para validar mais de uma condição dentro de uma única estrutura conficional "if'.
+
+if (número1 < número2) //Se o número1 for menor do que o número2.
+{
+	instrução1;
+}
+else if (número1 == número2) //Se o número1 for igual ao número2.
+{
+		instrução2;
+}
+else
+{
+	instrução3;
+}
+
+	Além de estruturas condicionais, temos também estruturas de looping:
+
+for (i = 0, i < condição, i++)
+{
+	instrução;
+}	
+	"O valor de i é igual a zero. Enquanto o valor de i for menor do que a condição, execute a instrução e adicione 1 ao valor de i,"
+
+foreach ("tipo de variável e nome" in "array")
+{
+	instrução;
+}
+	"Para cada item no vetor, execute a instrução."
+
+while (i < condição)
+{
+	instrução;
+}
+	"Enquanto o valor de i for menor do que a condição, execute a instrução."
+
+do
+{
+	instrução;
+}
+while (i < condição)
+	"Execute a instrução enquanto o valor de i for menor do que a condição."
+
+switch (variável)
+{
+	case condição1
+		instrução1;
+		break;
+	case condição2
+		instrução2;
+		break;
+	case condição3
+		instrução3;
+		break;
+	default;
+		instrução4;
+		break;
+
+OBS: O operador de condição "switch" não trabalha com comparações. apenas condições de igualdade.
+
+(Para saber mais sobre os operadores usados em estruturas condicionais, consulte: Operadores - C#.txt)

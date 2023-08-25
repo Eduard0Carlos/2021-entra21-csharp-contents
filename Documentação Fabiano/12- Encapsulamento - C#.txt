@@ -1,6 +1,0 @@
-		---Encapsulamento---
-
-	Chamamos na programaçõa de encapsulamento, acessar uma classe / propriedade / método privado por meio de um método público ou por meio do construtor de uma classe.
-	Estas são as duas únicas maneiras de acessar um componente privado:
-	-Por meio de um método público.
-	-Por meio de um construtor.

@@ -1,0 +1,79 @@
+		---Classes---
+
+	Em resumo, uma classe é um dado composto por membros. Seus membros incluem propriedades e métodos, que só podem ser usados e alterados quando criamos um novo objeto desta classe.
+	Caso você não tenha entendido, pense em classes como caixas que possuem diversas variáveis e métodos dentro, e que só podem ser usados quando instanciamos um objeto desta classe, Por sua vez, pense nos objetos como pessoas ou coisas que usam os componentes da caixa (classe). 
+
+	Por exemplo ao criarmos a classe "Clientes", definimos como propriedades: Nome, Idade, Endereço. Agora criamos objetos para a classe Cliente, que usam os componentes da sua classe de origem.
+	Usando o exemplo acima, criamos uma caixa "Clientes" e colocamos dentro dela variáveis de Nome, Idade e Endereço, que serão usadas pelas pessoas que pertence ao grupo de clientes, para guardar suas informações.
+
+	Ao criarmos a classe "Motor", definimos como propriedades: Potência, Cavalos, Temperatura. Agora criamos objetos para a classe Motor, que usam os componentes de sua classe de origem.
+	Usando o exemplo acima, criamos uma caixa "Motor" e colocamos dentro dela variáveis para Potência, Cavalos e Temperatura, que serão usados pelos objetos que pertencem ao grupo de clientes, para guardar suas informações.
+
+***LEMBRETE: Os métodos e propriedades de uma classe são chamados por objetos diferentes, e possuem diferentes valores de acordo com o objeto que as está usando no momento.
+Por exemplo, ao criar dois clientes: Victor e Matheus.
+Se Matheus estiver usando a caixa (classe) agora, então a propriedade Nome é igual a "Matheus". 
+(Matheus.Nome = "Matheus";)
+Se Victor estiver usando a caixa agora, então a propriedade Nome é igual a "Victor". 
+(Victor.Nome = "Victor";
+
+Por exemplo, ao criar dois motores: Fusca e Ferrari.
+Se Fusca estiver usando a caixa (classe) agora, então a propriedade Potência é igual a "65cv".
+(Fusca.Potência = 65;)
+Se Ferrari estiver usando a caixa agora, então a propriedade Potência é igual a '350cv".
+(Ferrari.Potência = 350;)
+	
+Dito isso, a sintaxe de uma classe normalmente segue o padrão:
+
+Modificador + "class" + Nome da classe
+{
+	Modificador + tipo da propriedade + Nome + { modificador get; modificador set; }
+
+	Modificador + tipo de retorno + Nome do método(parâmetros)
+	{
+		instruções;
+	}
+}
+[Para entender melhor, consulte: Modificadores.txt]
+
+Após criar uma classe, você é capaz de criar objetos para essa classe da seguinte forma: 
+
+	Nome da classe + Nome do objeto = "new" + Nome da classe + ();
+
+	Assim que criar um objeto, a classe cria o objeto usando o construtor. (Lembre-se disso) O construtor é um método que possui o mesmo nome da classe, e que é executado assim que um objeto é criado. Normalmente as inicializações de propriedades são feitas em construtores. O construtor geralmente fica invisível, mas você pode criar seu próprio construtor (literalmente um método com o mesmo nome da classe). 
+	Ao criar um construtor, tenha em mente que este método será usado para criar objetos. Se necessário, você pode passar parâmetros para criar o objeto. Se criar parâmetros para um construtor, você precisa fornecer esses parâmetros ao criar um novo objeto da classe.
+	OBS: Um método construtor não precisa e NÃO aceita um dado de retorno.
+
+public class Cliente 
+{
+	public string Nome { get; set;}
+	public string Idade { get; set;}
+	public string Endereço { get; set;}
+	public Cliente (nome, idade, endereço) [Note que o método construtor não possui tipos de retorno como string, int, bool, etc.]
+	{
+		this.Nome = nome;
+		this.Idade = idade;
+		this.Endereço = endereço;
+	}
+
+	[Agora para criar um cliente, precisamos forneçer seu nome, idade e endereço]
+
+	Cliente Jorge = new Cliente (); [ISTO NÃO FUNCIONA MAIS]
+	Cliente Jorge = new Cliente ("Jorge", "32", "Rua Medeiros"); [FUNCIONA]
+}
+
+OBS: Você deve ter notado o comando "this" antes da propriedade não é? Pois bem, o comando this faz referência as propriedades da classe em que esta alocado. Observe o exemplo a seguir e preste atenção aos escopos { } :
+
+public class Carro
+{
+	public string Cor { get; set; }
+	public string Pneu { get; set; }
+	public Motor Modelo { get; set; }
+	
+	class Motor
+	{
+		public int Potência { get; set;}
+		this.Potência = 60 (Neste caso, this está se referindo a classe Motor, pois enta dentro do escopo da classe Motor)
+	}
+	this.Cor = "roxo"; (Neste caso, this está se referindo a classe Carro, pois esta dentro do escopo da classe Carro)
+	this.Motor = new Motor(); (Neste caso, this está se referindo a classe Carro, pois esta dentro do escopo da classe Carro)
+}

@@ -1,0 +1,41 @@
+	---Operadores---
+
+\n - Quebra de linha.
+
+// - Usado para criar comentários que não são lidos pelo programa.
+
+/* */ - Usado para comentar várias linhas de uma vez.
+
+- || - Comparador usado em condições. Significa "ou".
+
+- && - Comparador usado em condições. Significa "e".
+
+- == - Comparador usado em condições. Signicifa "é igual".
+
+- != - Comparador usado em condições. Significa "é diferente".
+
+- > - Comparador usado em condições. Significa "é maior que".
+
+- < - Comparador usado em condições. Significa "é menor que".
+
+- >= - Comparador usado em condições. Significa "é maior ou igual a".
+
+- <= - Comparador usado em condições, Significa "é menor ou igual a",
+
+- ? - Operador ternário. Serve como substituto para "if" (as vezes).
+
+- : - Operador ternário. Serve como substituto para "else" (as vezes).
+
+- = - Usado para atribuir um valor a uma variável.
+
+- + - Operador usado para soma de valores.
+
+- - - Operador usado para subtração de valores.
+
+- * - Operador usado para multiplicação de valores.
+
+- / - Operador usado para divisão de valores. Este retorna o resultado.
+
+- % - Operador usado para divisão de valores. Este retorna as sobras.
+
+- return - Comando que retorna algum valor como resultado do método.

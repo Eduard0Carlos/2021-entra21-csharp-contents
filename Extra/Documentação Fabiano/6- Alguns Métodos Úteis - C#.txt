@@ -1,0 +1,81 @@
+		---Alguns Métodos Úteis---
+
+-"{vetor}.Length"
+
+Conta todos os valores do vetor.
+
+- "{lista}.Contains();"
+
+Procura e informa se um determinado item já existe dentro da {lista}.
+
+- "{lista}.Sum();"
+
+Soma todos os valores numéricos da lista.
+
+- "{lista}.Average();"
+
+Calcula a média de todos os itens da lista.
+
+-"{lista}.Max();"
+
+Retorna o valor máximo (mais alto) da lista.
+
+-"{lista}.Min();"
+
+Retorna o valor mínimo (menor valor) da lista.
+
+-"{lista}.Count"
+
+Conta todos os valores da lista.
+
+- "{variável}.ToString()" ou “Convert.ToString({variável})”  
+
+Converte uma {variável} de qualquer tipo para string.
+
+- ("Variável1 {0}, variável2: {1}" valor1, valor2);"
+
+Forma mais simples de escrever uma mensagem com string e outros tipos.
+
+- "int.Parse({variável})" ou “Convert.ToInt({variável})”   
+
+Converte o valor da {variável} entre parênteses, para um valor integer. 
+
+- "double.Parse({variável})" ou “Convert.ToDouble({variável})”  
+
+Converte o valor da {variável} entre parênteses para um valor double. 
+
+- "long.Parse({variável})" ou “Convert.ToLong({variável})”  
+
+Converte o valor da {variável} entre parênteses para um valor long. 
+
+- "bool.Parse({variável})" ou Convert.ToBool({variável})” 
+
+Converte o valor da {variável} entre parênteses para um valor bool. 
+
+- {tipo}.TryParse({tipo e nome da variável a ser convertida}, "out" {tipo e nome da variável de resultado})
+
+O método tryParse tenta converter uma variável para outro tipo. Se conseguir, retorna o resultado, e se não conseguir, retorna os valores "false" e 0.
+
+- "(tipo e nome da variável) = (novo tipo) variável_a_ser_convertida;"
+
+Forma mais simples de se converter uma variável.
+
+- "{variável}.ToUpper();"
+
+Converte as letras da {variável} para MAIÚSCULAS.
+
+-"{variável}.ToLower();"
+
+Converte todas as letras da {variável} para minúsculas.
+
+-"Variável.Trim();"
+
+Remove todos os espaços em branco no começo e final da string;
+
+- "throw new exception({mensagem de erro});"
+
+De maneira simples, se o programa ler esta linha, ele vai sair de todos os métodos que não capturarem o erro, e se ninguém capturar, esse comando fecha o programa.
+
+- try catch
+
+O comando try {comando} catch {exception} tenta realizar tal comando, e se não conseguir, pega o erro, ou seja, traz o motivo pelo qual não pode realizar o comando.

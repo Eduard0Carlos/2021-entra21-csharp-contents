@@ -10,7 +10,7 @@ Me chamo Carlos e aqui neste repositório junto todas as experiências adquirida
 
 Durante sua empolgante jornada por esse mundo da tecnologia, é normal que surjam dúvidas e eu entendo que não existe nada mais frustante do que ficar com elas. Dito isso, ficamos a disposição para tentar sanar quaisquer dúvidas através do nosso discord a qualquer hora e em qualquer lugar.
 
-[Clique aqui](/#Contato) para mais informações sobre contato]
+[Clique aqui](/#Contato) para mais informações sobre contato
 
 ## Dicas
 
@@ -30,8 +30,8 @@ Aos interessados, deixarei uma lista de cursos e sites que recomendo ir acompanh
 
 Sugestões/criticas serão muito bem vindas, assim como novos conteúdos, por favor nos chame para conversarmos e adicionarmos ou melhorarmos conteúdos! 
 
-[Clique aqui](/#Contato) para mais informações sobre contato]
+[Clique aqui](/#Contato) para mais informações sobre contato
 
 ## Contato
-
-**Discord:** carlos_ev
+### Discord
+[![My Discord](https://discord-readme-badge.vercel.app/api?id=253282818539388928)](https://www.discord.com/)

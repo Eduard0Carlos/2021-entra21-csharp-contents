@@ -8,9 +8,17 @@ Me chamo Carlos e aqui neste repositório junto todas as experiências adquirida
 
 ## Dúvidas
 
-Durante sua empolgante jornada por esse mundo da tecnologia, é normal que surjam dúvidas e eu entendo que não existe nada mais frustante do que ficar com elas. Dito isso, ficamos a disposição para tentar sanar quaisquer dúvidas através do nosso discord a qualquer hora e em qualquer lugar.
+Durante sua empolgante jornada por esse mundo da tecnologia, é normal que surjam dúvidas e eu entendo que não existe nada mais frustante do que ficar com elas. 
 
-[Clique aqui](#Contato) para mais informações sobre contato
+Dito isso, criamos alguns canais de comunição, onde ficaremos a disposição para tentar sanar quaisquer dúvidas que surjam.
+
+- Fórum deste repositório:
+  - https://github.com/Eduard0Carlos/2021-entra21-csharp-contents/discussions
+
+- Contato particular
+  - [Clique aqui](#Contato) para mais informações sobre contato
+    
+*OBS: Sinta-se a vontade chamar estes contatos a qualquer hora e em qualquer lugar, tentaremos responder o mais breve possível =)*
 
 ## Dicas
 

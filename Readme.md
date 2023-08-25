@@ -13,7 +13,7 @@ Durante sua empolgante jornada por esse mundo da tecnologia, é normal que surja
 Dito isso, criamos alguns canais de comunição, onde ficaremos a disposição para tentar sanar quaisquer dúvidas que surjam.
 
 - Fórum deste repositório:
-  - https://github.com/Eduard0Carlos/2021-entra21-csharp-contents/discussions
+  - Crie sua pergunta [clicando aqui](/discussions)
 
 - Outras formas [Clique aqui](#Contato)
   

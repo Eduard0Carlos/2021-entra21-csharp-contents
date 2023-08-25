@@ -34,4 +34,6 @@ Sugestões/criticas serão muito bem vindas, assim como novos conteúdos, por fa
 
 ## Contato
 ### Discord
-[![My Discord](https://discord-readme-badge.vercel.app/api?id=253282818539388928)](https://www.discord.com/)
+[![My Discord](https://discord-readme-badge.vercel.app/api?id=253282818539388928)](https://support.discord.com/hc/en-us/articles/218344397-How-do-I-add-my-friend-to-my-friends-list-)
+
+[![Discord Gustavo](https://discord-readme-badge.vercel.app/api?id=625203457305083934)](https://support.discord.com/hc/en-us/articles/218344397-How-do-I-add-my-friend-to-my-friends-list-)

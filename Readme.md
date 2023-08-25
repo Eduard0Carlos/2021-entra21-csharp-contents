@@ -14,7 +14,7 @@ Durante sua empolgante jornada por esse mundo da tecnologia, é normal que surja
 
 ## Dicas
 
-Aos interessados, deixarei uma lista de cursos e sites que recomendo ir acompanhando junto ao curso do programa entra21.
+Aos interessados, deixarei uma lista de cursos e sites que recomendo ir acompanhando.
 
 - Cursos auxiliares
   - https://www.udemy.com/course/logica-de-programacao-csharp/ (Mais básico)

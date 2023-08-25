@@ -16,7 +16,7 @@ Dito isso, criamos alguns canais de comunição, onde ficaremos a disposição p
   - https://github.com/Eduard0Carlos/2021-entra21-csharp-contents/discussions
 
 - Outras formas [Clique aqui](#Contato)
--  
+  
 *OBS: Sinta-se a vontade chamar estes contatos a qualquer hora e em qualquer lugar, tentaremos responder o mais breve possível =)*
 
 ## Dicas

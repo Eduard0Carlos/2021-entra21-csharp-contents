@@ -1,4 +1,4 @@
-# Bom Estudos!
+# Bons Estudos!
 
 ## Sobre
 

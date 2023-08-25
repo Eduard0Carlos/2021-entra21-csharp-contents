@@ -28,7 +28,7 @@ Aos interessados, deixarei uma lista de cursos e sites que recomendo ir acompanh
 
 ## Sugestões
 
-Sugestões/criticas serão muito bem vindas, assim como novos conteúdos, por favor nos chame para conversarmos e adicionarmos ou melhorarmos conteúdos! 
+Sugestões/criticas serão muito bem vindas, assim como novos conteúdos, por favor nos chame para conversarmos! 
 
 [Clique aqui](#Contato) para mais informações sobre contato
 
